@@ -1,0 +1,134 @@
+@charset "UTF-8";
+.updateStock{
+    background-color: #f4e4cd ;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.prod-nav{
+    width: 100%;
+    margin:18px;
+    padding: 12px;
+    display:flex;
+    justify-content: space-between;
+    background-color: #f4e4cd;
+    border-radius: 3px;
+    border-color: #320c50;
+}
+
+.prod-nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin:18px;
+    padding:12px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 3%;
+    color: #5b1e8c;
+    font-size: 18px;
+    border-radius: 3px;
+    border-color: #320c50;
+}
+
+.prod-nav ul li a{
+    text-decoration: none;
+    color: #320c50;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background: thistle;
+    color:black;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.button a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.pic{
+    height: 40px;
+    width: 80px;
+    margin: 12px 12px;
+}
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: auto;
+  width: 80%;
+}
+.container h1{
+	margin:24px 12px;
+    position: relative;
+    font-family: cursive;
+    font-weight: bolder;
+    justify-content: center;
+    padding-left: 5%;
+    color: #320c50;
+
+    }
+
+form{
+	display: block;
+  width: 30%;
+  position: relative;
+  z-index: 1;
+  background-image: linear-gradient(45deg,#eaaa6e,#e08b23);
+  margin: 40px auto 80px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+background-image: linear-gradient(45deg,#8401bc,#9c7edd);
+  color: white;
+  padding: 16px 20px;
+  margin: 28px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
